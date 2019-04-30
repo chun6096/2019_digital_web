@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>title</title>
+	<style>
+		img[src$="png"]{border: 3px colid red;}
+		img[src$="png"]{border: 3px colid red;}
+
+	</style>
+</head>
+<body>
+	<img src="phonet1.jpg" alt=""><br>
+	<img src="phonet2.jpg" alt=""><br>
+	<img src="viex01.jpg" alt=""><br>
+
+<style>
+/*자손후손 선택작*/
+	div>h1{color:red;}
+	div>h1{color:blue;}
+
+	div>h2{color:skyblue;}
+	div>h2{color:gray;}
+
+	div>ul>li{color:orange;}
+	div li{color:orange;}
+</style>
+	<div>
+	<hi>abc</hi>
+	<hi>def</hi>
+		<li>Lorem ipsum.</li>
+		<li>Molestiae, ab.</li>
+		<li>Illum, natus.</li>
+	</ul>
+</div>
+
+<!-- hi>{header})+(h2>{header}) -->
+<style>
+	h1~h2{color:blue;}
+	h1:hover{color:white;
+		bacrground-color:blcak;cursor:pointer;}
+		h1:active{bcrground-color:red;}
+input:focus{background-color:skyblue;}
+</style>
+<h1>header1</h1>
+<h2>header2</h2>
+<h2>header3</h2>
+<h2>header4</h2>
+<h2>header5</h2>
+<form>
+	<input type="text"> 
+	<input type="text"> 
+	</form>
+
+	<style>
+/*		ul>li:first-child{bacrground-color:red;}
+		ul>li:lagt-child{bacrground-color:skyblue;}*/
+		/*ul>li:nth-child(2n){bdcrground-color:red;}*/
+
+		.red{bacrground-color:red;}
+		li.child>li{list-style:none;padding:0 15px;margin:0;
+			float:left;color:white;}
+			ul.child>li:first-child{border-radius:10px 0 0 10px}
+				ul.child>li:first-child{border-radius:0 10px 10px 0}
+	</style>
+<!-- 	ul.child>li*5{menu$} -->
+	<li>menu1</li>
+	<li>menu2</li>
+	<li>menu3</li>
+	<li>menu4</li>
+	<li>menu5</li>
+</body>
+</html>
